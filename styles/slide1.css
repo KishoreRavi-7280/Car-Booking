@@ -213,16 +213,17 @@
         
     } 
 }*/
-/* Large Screens (Desktops >1200px) */
-@media (min-width:1200px) {
+/* Large Screens (Desktops >1600px) */
+@media (min-width:1600px) {
   .bmw-slider-heading h3 {
     font-size: 48px;
   }
   .bmw-slide {
-    width: 320px;
+    width: 310px;
+    height: 42vh;
   }
   .bmw-slide-img img{
-    height: 28vh;
+    height: 24vh;
   }
 }
 
