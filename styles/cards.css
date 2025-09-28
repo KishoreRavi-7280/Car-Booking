@@ -225,7 +225,7 @@ h2{
 =========================== */
 
 /* Large Screens (Desktops >1600px) */
-@media (min-width:1600px){
+@media (max-width:1600px){
   .blog-box {
     width: 320px;
     height: 42vh;
