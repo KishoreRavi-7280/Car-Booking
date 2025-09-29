@@ -214,16 +214,37 @@
     } 
 }*/
 /* Large Screens (Desktops >1600px) */
-@media (min-width:1600px) {
+/* @media (max-width:1600px) {
   .bmw-slider-heading h3 {
     font-size: 48px;
   }
   .bmw-slide {
-    width: 310px;
-    height: 42vh;
+    width: 322px;
+    height: 45vh;
   }
   .bmw-slide-img img{
-    height: 24vh;
+    height: 20vh;
+
+    
+  }
+} */
+@media (min-width:1200px) {
+  .bmw-slider-heading h3 {
+    font-size: 48px;
+  }
+  .bmw-slide {
+    width: 320px;
+  }
+   .bmw-slide-img img{
+    height: 28vh;
+  } 
+  .buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .buy .bn-2{
+    position: relative;
   }
 }
 
@@ -236,13 +257,12 @@
     font-size: 18px;
   }
   .bmw-slide {
-    width: 280px;
-    height: 100%;
+    width: 310px;
+    
   }
- 
   .bmw-slide-img img{
-    width: 270px;
-    height: 28vh;
+    width: 280px;
+    height: 24vh;
   }
   .bmw-slide-text {
     width: auto;
@@ -265,7 +285,7 @@
   }
   
   .bmw-slide-img img{
-    height: 15.9vh;
+    height: 18.9vh;
     width: 270px;
   }
   
@@ -298,10 +318,8 @@
   }
   .bmw-slide {
     width: 300px;
-    height: 50vh;
-    
+ 
   }
-  
   .bmw-slide-img img{
     width: 280px;
     height: 23vh;
@@ -338,7 +356,7 @@
   }
  .bmw-slide {
     margin: 10px 7.5px;
-    height: 46.6vh;
+    /* height: 41.6vh; */
     width: 275px;
   }
   .bmw-booking-panel {
@@ -350,7 +368,7 @@
     padding: 0;
   }
   .bmw-slide-img img{
-    height: 23vh;
+    height: 21vh;
     width: 270px;
   }
   .heading {

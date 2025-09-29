@@ -225,24 +225,23 @@ h2{
 =========================== */
 
 /* Large Screens (Desktops >1600px) */
-@media (min-width:1600px){
+@media (min-width:1200px){
   .blog-box {
     width: 320px;
-    height: 42vh;
+    height: 55vh;
   }
   .blog-text{
     height: 0;
   }
   #x5 img{
-    height: 22vh;
+    height: 31vh;
   }
  .buy{
   display: flex;
   flex-direction: row;
  } 
- .buy .BN{
+ .buy .bn-1{
   position: relative;
-  right: 130px;
  }
     
   
@@ -264,6 +263,9 @@ h2{
     width: auto;
     height: auto;
   }
+  #x5{
+     height: 27vh;
+  }
 }
 
 /* Tablets (768px - 991px) */
@@ -281,7 +283,7 @@ h2{
     height: auto;
   }
   #x5 img{
-    height: 15.5vh;
+    height: 25vh;
   }
   .blog-heading {
     font-size: 35px;
@@ -315,9 +317,9 @@ h2{
     height: auto;
     width: 270px;
   }
- #x5 img{
+ /* #x5 img{
     height: 30vh;
-  }
+  } */
   .blog-text .car-list{
     grid-template-columns: 1fr;
     margin: 10px;
@@ -360,7 +362,7 @@ h2{
     
   }
   #x5 img{
-    height: 21.4vh;
+    height: 20vh;
   }
   .heading .year {
     position: relative;
