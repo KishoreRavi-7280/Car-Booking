@@ -233,9 +233,7 @@ h2{
   .blog-text{
     height: 0;
   }
-  #x5 img{
-    height: 31vh;
-  }
+
  .buy{
   display: flex;
   flex-direction: row;
@@ -263,9 +261,8 @@ h2{
     width: auto;
     height: auto;
   }
-  #x5{
-     height: 27vh;
-  }
+  
+  
 }
 
 /* Tablets (768px - 991px) */
@@ -281,9 +278,6 @@ h2{
   .blog-img{
     width: 270px;
     height: auto;
-  }
-  #x5 img{
-    height: 25vh;
   }
   .blog-heading {
     font-size: 35px;
@@ -361,9 +355,7 @@ h2{
     width: 100%;
     
   }
-  #x5 img{
-    height: 20vh;
-  }
+
   .heading .year {
     position: relative;
     right: 130px;

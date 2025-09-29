@@ -234,9 +234,10 @@
   }
   .bmw-slide {
     width: 320px;
+    height: 50vh;
   }
    .bmw-slide-img img{
-    height: 28vh;
+    height: 25vh;
   } 
   .buy{
     display: flex;
@@ -260,6 +261,7 @@
     width: 310px;
     
   }
+  
   .bmw-slide-img img{
     width: 280px;
     height: 24vh;
